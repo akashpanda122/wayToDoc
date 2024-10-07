@@ -41,7 +41,7 @@ const Payment = ({
         client,
         // optional parameter that will wait for the transaction to be mined before returning
         waitForTxn: true,
-        onSuccess: ({ hash, request }) => {
+        onSuccess: ({ hash }) => {
             setBlockLink(hash);
             setLoading(false);
             setCurrentState(3);

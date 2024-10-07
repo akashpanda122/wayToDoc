@@ -21,7 +21,7 @@ import { validationCheck } from '@/app/lib';
 import BlockScout from '../../../../public/assets/blockscout.svg';
 import Image from 'next/image';
 export default function Modal() {
-    let [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     const [currentState, setCurrentState] = useState(0);
     const [blockLink, setBlockLink] = useState('');
     function open() {

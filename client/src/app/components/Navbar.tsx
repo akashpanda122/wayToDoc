@@ -5,7 +5,7 @@ import Link from 'next/link';
 import toast from 'react-hot-toast';
 import { FaPowerOff } from 'react-icons/fa6';
 import { RxAvatar, RxExternalLink } from 'react-icons/rx';
-import alchemyLogo from '../../../public/assets/alchemy.png';
+//import alchemyLogo from '../../../public/assets/alchemy.png';
 import logo from '../../../public/assets/logo.png';
 import { shortenAddress } from '../lib';
 import WordId from './wordId';
