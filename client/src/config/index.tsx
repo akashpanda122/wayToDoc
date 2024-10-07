@@ -2,13 +2,13 @@ import { RxAvatar } from 'react-icons/rx';
 export const DOCTOR_PROFILE = [
     {
         avatar: <RxAvatar size={80} />,
-        name: 'Dr. Shikha Goyal',
-        short_desc: 'DS, MDS - Conservative Dentistry & Endodontics',
-        desc: 'Dr Shikha Goyal is a principal dentist at The Dental Roots, Gurgaon, providing patients with treatment involving all aspects of dentistry including Single Sitting Root Canal, Cosmetic Dentistry, Dental Implants, Rehabilitative and General Dental Care',
+        name: 'Dr. Emily Watson',
+        short_desc: 'Cardiologist with 10+ years of experience in treating heart-related conditions',
+        desc: 'Dr. Emily Watson is a board-certified cardiologist specializing in heart disease prevention, diagnosis, and treatment. She has successfully managed complex cases of hypertension, arrhythmia, and heart failure. Dr. Watson is known for her compassionate patient care and uses the latest diagnostic tools to ensure effective treatment.',
         language: 'English',
-        education: 'Grand Canyon University, 2019',
+        education: 'MD - Cardiology, Harvard Medical School',
         fees: '1',
-        hospitals: 'Manipal Hospital',
+        hospitals: 'Mercy General Hospital, Heart Care Clinic',
     },
 ];
 export const invoices = [

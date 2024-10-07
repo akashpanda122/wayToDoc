@@ -1,6 +1,6 @@
 # **CCIPMutihop-router**
 
-Welcome to the **CCIP-router** repository. This project demonstrates the implementation of Chainlink's Cross-Chain Interoperability Protocol (CCIP) for executing multi-hop transactions across various testnets. The primary focus is on **MedX** multihop functionality and its evolution into a more advanced approach with **CCIPCrossChainHop**.
+Welcome to the **CCIP-router** repository. This project demonstrates the implementation of Chainlink's Cross-Chain Interoperability Protocol (CCIP) for executing multi-hop transactions across various testnets. The primary focus is on **WayToDoc** multihop functionality and its evolution into a more advanced approach with **CCIPCrossChainHop**.
 
 ---
 
@@ -38,7 +38,7 @@ As the need for more complex cross-chain transactions grew, the **WayToDoc** app
 
 - **Scalability**: The design allows for scaling to support an arbitrary number of chains, making it a robust solution for more complex cross-chain operations.
 
-- **Extended Gas Management**: Similar to medX, this contract manages gas limits for each hop, but it extends this capability to handle multiple hops, ensuring that each step of the transaction is adequately funded.
+- **Extended Gas Management**: Similar to wayToDoc, this contract manages gas limits for each hop, but it extends this capability to handle multiple hops, ensuring that each step of the transaction is adequately funded.
 
 - **Versatile Use Cases**: The contract is designed to be adaptable to various scenarios, from simple one-hop transactions to complex multi-hop transactions involving multiple intermediary blockchains.
 
@@ -80,7 +80,7 @@ In cases where multiple paths exist between two chains, the helper function gene
 
 ## **WayToDoc Single Hop**
 
-Here are the contract addresses for different testnets involved in the medx singlehop functionality:
+Here are the contract addresses for different testnets involved in the wayToDoc singlehop functionality:
 
 ### **Sepolia Testnet**
 - **Contract Address:** [0x98e7375398DE78FcFA685204D219A1571B888535](https://sepolia.etherscan.io/address/0x98e7375398DE78FcFA685204D219A1571B888535)

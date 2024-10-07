@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { RxAvatar } from 'react-icons/rx';
-import MedxApp from '../../../public/assets/MedxApp.png';
+//import MedxApp from '../../../public/assets/MedxApp.png';
 import Link from 'next/link';
 
 const doctorDetails = [
@@ -141,7 +141,7 @@ const page = () => {
                     Connect with doctors online, available 24/7,
                     <br /> from the comfort of your home.
                 </h1>
-                <Image src={MedxApp} alt="medxApp" width={800} />
+                {/*<Image src={MedxApp} alt="medxApp" width={800} />*/}
             </div>
         </div>
     );

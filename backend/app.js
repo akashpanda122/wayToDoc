@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Welcome to the medX Backend API');
+  res.send('Welcome to the wayToDoc Backend API');
 });
 
 // Use routes
