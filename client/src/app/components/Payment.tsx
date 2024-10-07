@@ -7,14 +7,15 @@ import React from 'react';
 import toast from 'react-hot-toast';
 import { encodeUSDCOperation } from '../lib/func';
 import usdcLogo from '../../../public/assets/usdcLogo.png';
-import optimismLogo from '../../../public/assets/optimismLogo.png';
+//import optimismLogo from '../../../public/assets/optimismLogo.png';
+import amoyLogo from '../../../public/assets/amoyLogo.png';
 import baseLogo from '../../../public/assets/baseLogo.svg';
 import ethereumLogo from '../../../public/assets/ethereumLogo.png';
 import Image from 'next/image';
 const chains = [
     {
-        logo: optimismLogo,
-        title: 'Optimism',
+        logo: amoyLogo,
+        title: 'Amoy',
     },
     {
         logo: baseLogo,
