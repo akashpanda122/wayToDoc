@@ -4,21 +4,19 @@ Welcome to the **CCIP-router** repository. This project demonstrates the impleme
 
 ---
 
-## **MedX Multihop First Hop**
+## **WayToDoc Multihop First Hop**
 
-The **MedX** multihop functionality allows cross-chain transactions starting with a first hop. Below is an example of a transaction on the CCIP network:
-
-- **Transaction:** [MedX Multihop First Hop](https://ccip.chain.link/tx/0x58cfe30b7e0a723b4a5fbe21773a96aa7b22ebd4fd9a2ea31cc3a57a551605c1)
+The **WayToDoc** multihop functionality allows cross-chain transactions starting with a first hop. Below is an example of a transaction on the CCIP network:
 
 ---
 
-## **Contract Evolution: medX to CCIPCrossChainHop**
+## **Contract Evolution: WayToDoc to CCIPCrossChainHop**
 
-### **medX Cross-Chain Hop Contract**
+### **WayToDoc Cross-Chain Hop Contract**
 
-The **medX** contract was the initial implementation designed for cross-chain transactions requiring up to one intermediate hop between the source and destination chains. This contract efficiently handles scenarios where a message or asset needs to pass through an intermediate blockchain before reaching its final destination.
+The **WayToDoc** contract was the initial implementation designed for cross-chain transactions requiring up to one intermediate hop between the source and destination chains. This contract efficiently handles scenarios where a message or asset needs to pass through an intermediate blockchain before reaching its final destination.
 
-#### **Key Features of medX:**
+#### **Key Features of WayToDoc:**
 
 - **Simple Multi-Hop Handling**: The contract is built to handle a single intermediate hop, making it suitable for scenarios where the transaction only requires one intermediary blockchain before reaching the final destination.
 
@@ -28,11 +26,11 @@ The **medX** contract was the initial implementation designed for cross-chain tr
 
 #### **Example:**
 For a transaction that needs to move from Chain A to Chain C via an intermediate Chain B:
-- **medX** handles this efficiently with a single intermediate hop (A -> B -> C).
+- **WayToDoc** handles this efficiently with a single intermediate hop (A -> B -> C).
 
 ### **Evolution to CCIPCrossChainHop**
 
-As the need for more complex cross-chain transactions grew, the **medX** approach was extended and evolved into the **CCIPCrossChainHop** contract. This new contract supports transactions that require multiple hops across an arbitrary number of blockchains, making it far more versatile and capable of handling complex scenarios where a message or asset must traverse multiple blockchains before reaching its final destination.
+As the need for more complex cross-chain transactions grew, the **WayToDoc** approach was extended and evolved into the **CCIPCrossChainHop** contract. This new contract supports transactions that require multiple hops across an arbitrary number of blockchains, making it far more versatile and capable of handling complex scenarios where a message or asset must traverse multiple blockchains before reaching its final destination.
 
 #### **Key Features of CCIPCrossChainHop:**
 
@@ -80,7 +78,7 @@ In cases where multiple paths exist between two chains, the helper function gene
 
 ---
 
-## **Medx Single Hop**
+## **WayToDoc Single Hop**
 
 Here are the contract addresses for different testnets involved in the medx singlehop functionality:
 
@@ -98,7 +96,7 @@ Here are the contract addresses for different testnets involved in the medx sing
 
 ---
 
-## **Medx Onchain Autopay with Functions ntfn**
+## **WayToDoc Onchain Autopay with Functions ntfn**
 
 - **Contract Address:** [0xF8539a832FFc12e0adc615c5759cD675Daa49Ca5](https://sepolia.basescan.org/address/0xF8539a832FFc12e0adc615c5759cD675Daa49Ca5)
 
@@ -136,23 +134,3 @@ Here are some examples of multi-hop transactions executed across various testnet
   - **Transaction Optimism --> Sepolia :** [CCIP Multi-Hop](https://ccip.chain.link/tx/0x1213cfb14f128a2a0468b0b848e9dacb2e8a359364a8b9d16666f7d2a8dc6f53)
   - **Transaction Sepolia --> Amoy :** [CCIP Multi-Hop](https://ccip.chain.link/tx/0xd24a66d5ed53a4bada1fe4bc8a31a22a7867220e8cc652e885834da0fe304bfe)
 ---
-
-## **Repository Structure**
-
-This repository contains:
-
-- **Smart Contracts**: Contracts implementing the CCIP functionality for multi-hop transactions.
-- **Helper Scripts**: Scripts for generating input parameters and testing various transaction paths.
-- **Documentation**: Detailed explanations of the contract functionality, use cases, and examples.
-
----
-
-## **Contributing**
-
-Feel free to open issues or submit pull requests if you find any bugs or want to contribute new features or enhancements.
-
----
-
-## **License**
-
-This project is licensed under the MIT License.

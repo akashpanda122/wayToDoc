@@ -7,9 +7,9 @@ import { baseSepolia } from '@account-kit/infra';
 import { QueryClient } from '@tanstack/react-query';
 
 const uiConfig: AlchemyAccountsUIConfig = {
-    illustrationStyle: 'filled',
+    illustrationStyle: 'outline',
     auth: {
-        sections: [[{ type: 'email' }], [{ type: 'passkey' }]],
+        sections: [[{ type: 'email' }], [{ type: 'passkey' }], [{"type":"external_wallets","walletConnect":{"projectId":"your-project-id"}}]],
         addPasskeyOnSignup: true,
     },
 };

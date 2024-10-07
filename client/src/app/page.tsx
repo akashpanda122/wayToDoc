@@ -33,18 +33,23 @@ export default function Home() {
     }, [address, searchId]);
     const swiperConfig = [
         {
-            title: 'Prescription Redemption',
-            desc: 'Redeem your prescriptions effortlessly at any pharmacy. Our streamlined process ensures quick and accurate medication fulfillment, saving you time and hassle. ',
+            title: 'Customizable Health Records',
+            desc: 'Supports comprehensive patient records, including medical history, prescriptions, diagnostics, and treatment plans, all customizable to individual healthcare provider needs.',
             image: SwiperImage1,
         },
         {
-            title: 'Access Medical Records',
-            desc: 'Securely access your medical records anytime, anywhere. Our decentralized system ensures your data is private and protected, giving you control over your health information ',
+            title: 'Real-Time Updates',
+            desc: 'Facilitates real-time updates on patient data, allowing healthcare teams to collaborate seamlessly, improving patient outcomes.',
             image: SwiperImage2,
         },
         {
-            title: 'Consult Doctors',
-            desc: 'Easily connect with top healthcare professionals for virtual consultations. Get expert medical advice and personalized care without leaving your home.',
+            title: 'Analytics & Reporting',
+            desc: 'Provides detailed analytics on patient data and care trends, helping healthcare providers make informed decisions.',
+            image: SwiperImage3,
+        },
+        {
+            title: 'Multi-Layered Security',
+            desc: 'Employs encryption, role-based access, and secure login protocols to protect sensitive patient information.',
             image: SwiperImage3,
         },
     ];
@@ -66,8 +71,8 @@ export default function Home() {
                             <Image
                                 src={elem.image}
                                 alt="images"
-                                height={330}
-                                width={330}
+                                height={500}
+                                width={500}
                                 className="mx-auto"
                             />
                             <div className="font-bold pt-8 pb-4 text-xl">
@@ -82,7 +87,7 @@ export default function Home() {
                 {isLoadingAccount ? (
                     <SlightFlip
                         className="text-4xl  font-bold tracking-[-0.1em] text-black  md:leading-[5rem]"
-                        word="Welcome to Medx"
+                        word="Welcome to WayToDoc"
                     />
                 ) : (
                     <AuthCard />

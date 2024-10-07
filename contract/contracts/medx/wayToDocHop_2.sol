@@ -8,7 +8,7 @@ import {CCIPReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/applications
 import {LinkTokenInterface} from "@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol";
 import {IAny2EVMMessageReceiver} from "@chainlink/contracts-ccip/src/v0.8/ccip/interfaces/IAny2EVMMessageReceiver.sol";
 
-contract medxCrossChainHop is IAny2EVMMessageReceiver {
+contract wayToDocCrossChainHop is IAny2EVMMessageReceiver {
 
    // Event emitted when a message is sent to another chain.
     event MessageSent(

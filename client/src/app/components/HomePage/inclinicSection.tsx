@@ -23,24 +23,24 @@ const inClinicOpds = [
         id: 1,
         image: dentist,
         name: 'Dentist',
-        dis: 'Teething troubles? Schedule a dental checkup.',
+        dis: 'Smile brighter! Our dental experts ensure your teeth and gums are in top shape, from routine cleanings to life-changing dental care',
     },
     {
         id: 2,
         image: gynecologist,
         name: 'Gynecologist/Obstetrician',
-        dis: 'Explore for women’s health, pregnancy, and infertility treatments.',
+        dis: 'Empowering womens health at every stage of life, offering compassionate care from fertility to wellness and everything in between.',
     },
     {
         id: 3,
         image: dietitian,
-        name: 'Dietitian/Nutrition',
-        dis: 'Get guidance on eating right, weight management, and sports nutrition.',
+        name: 'Pediatrician',
+        dis: 'Where little ones get big care! We provide gentle, expert healthcare for your child growing needs, from newborn to teen.',
     },
     {
         id: 4,
-        name: 'Physiotherapist',
-        dis: 'Pulled a muscle? Get it treated by a trained physiotherapist.',
+        name: 'Dermatologist',
+        dis: 'Love the skin you are in! Our dermatologists offer solutions for clear, glowing skin and treat everything from acne to skin cancer.',
         image: physiotherapist,
     },
     {
@@ -51,26 +51,26 @@ const inClinicOpds = [
     },
     {
         id: 6,
-        name: 'Orthopedist',
-        dis: 'For bone and joint issues, spinal injuries, and more.',
+        name: 'Cardiologist',
+        dis: 'Your heart’s health is our priority. From heart checks to complex care, we help you live a heart-healthy life every beat of the way',
         image: orthopedist,
     },
     {
         id: 7,
-        name: 'General Physician',
-        dis: 'Find the right family doctor in your neighborhood.',
+        name: 'Orthopedist',
+        dis: 'Keep moving with confidence! Whether it’s a sprain, fracture, or joint pain, we help you stay active and pain-free',
         image: generalDoctor,
     },
     {
         id: 8,
-        name: 'Pediatrician',
-        dis: 'Child specialists and doctors for infants.',
+        name: 'Psychiatrist',
+        dis: 'A healthy mind is key to a healthy life. We provide caring, expert mental health support, from counseling to treatment.',
         image: pediatrician,
     },
     {
         id: 9,
-        name: 'Gastroenterologist',
-        dis: 'Explore for issues related to the digestive system, liver, and pancreas.',
+        name: 'Urologist',
+        dis: 'Your health, your comfort. We specialize in urinary and reproductive health, offering expert care with a personal touch',
         image: gastroenterologist,
     },
 ];
@@ -80,7 +80,7 @@ const InclinicSection = () => {
         <div className="w-full mx-4 flex flex-col gap-10">
             <div className="">
                 <div className="space-y-2">
-                    <h1 className="font-bold text-xl">
+                    <h1 className="font-bold text-xl text-[#243352]">
                         Book an appointment for an in-clinic consultation
                     </h1>
                     <p className="font-light">
@@ -117,7 +117,7 @@ const ConsultaionSwiper = () => {
                             alt={opd.name}
                             className="border border-[#52D2CF]  rounded-md p-4"
                         />
-                        <h1 className="font-bold text-lg ">{opd.name}</h1>
+                        <h1 className="font-bold text-lg text-[#243352]">{opd.name}</h1>
                         <p className="text-sm">{opd.dis}</p>
                     </SwiperSlide>
                 </Link>
