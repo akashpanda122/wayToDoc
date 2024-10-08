@@ -18,31 +18,13 @@ WayToDoc leverages blockchain technologies to solve key problems in healthcare: 
 Here are the contract addresses for different testnets involved in the wayToDoc singlehop functionality:
 
 #### **Sepolia Testnet**
-- **Contract Address:** [0x98e7375398DE78FcFA685204D219A1571B888535](https://sepolia.etherscan.io/address/0x98e7375398DE78FcFA685204D219A1571B888535)
+- **Contract Address:** [0x8f1b4408003C8F4267C6456b48d00641b0941CF1](https://sepolia.etherscan.io/address/0x8f1b4408003C8F4267C6456b48d00641b0941CF1)
 
 #### **Base Sepolia Testnet**
-- **Contract Address:** [0xc1ca35997dd2c981c7ade0c73bd8628079fd0a4e](https://base-sepolia.blockscout.com/address/0xc1ca35997dd2c981c7ade0c73bd8628079fd0a4e)
+- **Contract Address:** [0x435acbb10E68Aa5c0151B5986Ab1B5430CbA00E1](https://base-sepolia.blockscout.com/address/0x435acbb10E68Aa5c0151B5986Ab1B5430CbA00E1)
 
 #### **Polygon Amoy Testnet**
-- **Contract Address:** [0x7A409A3A36112bd6906a113d9612D7f7e1abd6d4](https://amoy.polygonscan.com/address/0x7A409A3A36112bd6906a113d9612D7f7e1abd6d4)
-
----
-
-### **CCIP Multichain Hop Router**
-
-The following are the **CCIP Multichain Hop Router** contract addresses deployed across different testnets:
-
-#### **Base Sepolia Testnet**
-- **Router Address:** [0x273C282A9f1B45416CB9967611d431C116286ef9](https://base-sepolia.blockscout.com/address/0x273C282A9f1B45416CB9967611d431C116286ef9)
-
-#### **Sepolia Testnet**
-- **Router Address:** [0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37](https://sepolia.etherscan.io/address/0x96EE5fb7bc57C1f03D560Fcb1b8574ddC8bf5F37)
-
-#### **Amoy Testnet**
-- **Router Address:** [0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7](https://amoy.polygonscan.com/address/0x40Fee4c8A3a66Dba113b881Dca0E4B2828b86BB7)
-
-#### **Arbitrum Sepolia Testnet**
-- **Router Address:** [0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA](https://sepolia-explorer.arbitrum.io/address/0x309222b7833D3D0A59A8eBf9C64A5790bf43E2aA)
+- **Contract Address:** [0xdd36621B2B69601e83DE2122Fa65cA09F30Baad4](https://amoy.polygonscan.com/address/0xdd36621B2B69601e83DE2122Fa65cA09F30Baad4)
 
 ---
 
